@@ -29,7 +29,7 @@ body {
 }
 
 .sidebar-center {
-  height: 80%;
+  height: 80vh;
 }
 
 .sidebar-bottom {
@@ -81,6 +81,10 @@ body {
   border-radius:5px;
   cursor: pointer;
   margin-right: 15px;
+}
+
+.color-box:hover {
+  opacity: 0.3;
 }
 
 .dark {
