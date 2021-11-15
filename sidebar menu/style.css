@@ -98,3 +98,18 @@ body {
 .light {
   background-color: #f3f4f6;
 }
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    width: 50px;
+  }
+  .brand,.list-item-text {
+    display: none;
+  }
+  .sidebar-bottom{
+    flex-direction: column;
+  }
+  .color-box {
+  margin: 0 0 5px;
+  }
+}
