@@ -28,6 +28,10 @@ body {
   border-bottom: 1px solid #4b4b4b;
 }
 
+.sidebar-center {
+  height: 80%;
+}
+
 .sidebar-bottom {
   border: none;
   justify-content: center;
@@ -68,4 +72,25 @@ body {
 .list-item:hover, .list-item-icon.active {
   background-color: #374151;
   color: #fff;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius:5px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.dark {
+  background-color: #111827;
+}
+
+.night {
+  background-color: #313e81;
+}
+
+.light {
+  background-color: #f3f4f6;
 }
