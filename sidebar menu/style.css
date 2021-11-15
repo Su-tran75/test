@@ -25,6 +25,12 @@ body {
   margin-bottom: 10px;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+.sidebar-bottom {
+  border: none;
+  justify-content: center;
 }
 
 .logo {
@@ -37,4 +43,29 @@ body {
 .brand {
   font-weight: bold;
   cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.list-item {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.list-item-icon {
+  width: 30px;
+  font-size: 20px;
+}
+
+.list-item:hover, .list-item-icon.active {
+  background-color: #374151;
+  color: #fff;
 }
