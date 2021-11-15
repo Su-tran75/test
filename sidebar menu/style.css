@@ -22,4 +22,18 @@ body {
   width: 80%;
   padding: 10px 0;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.brand {
+  font-weight: bold;
+  cursor: pointer;
 }
