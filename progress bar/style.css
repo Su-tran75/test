@@ -12,6 +12,11 @@
   margin:auto;
 }
 
+.progress-circle {
+  stroke-dasharray: 189; 
+  stroke-dashoffset: 189;
+}
+
 /* .progress-bar {
   width: 350px;
   height: 10px;
